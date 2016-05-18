@@ -1,2 +1,2 @@
 # jmstest
-jms integration test
+jms integration test (JMS + JUnit + Maven)
