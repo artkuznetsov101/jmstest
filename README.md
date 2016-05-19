@@ -1,4 +1,4 @@
-# jmstest
+# jmstest [![Build Status](https://travis-ci.org/artkuznetsov101/jmstest.svg?branch=master)](https://travis-ci.org/artkuznetsov101/jmstest)
 
 Simple jms integration test utility I used during the development of (yet another) jms message broker. 
 
