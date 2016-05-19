@@ -232,8 +232,8 @@ public class MessageHeaderTest extends QueueConnectionTestCase {
 	public void testJMSExpiration_online() {
 		try {
 
-			long expirationInterval = 3 * 1000;
-			long sleepInterval = 5 * 1000;
+			long expirationInterval = 2 * 1000;
+			long sleepInterval = 4 * 1000;
 			long messageCount = 3;
 
 			HashSet<String> expiringIds = new HashSet<String>();
@@ -293,8 +293,8 @@ public class MessageHeaderTest extends QueueConnectionTestCase {
 
 			receiverConnection.stop();
 
-			long expirationInterval = 3 * 1000;
-			long sleepInterval = 5 * 1000;
+			long expirationInterval = 2 * 1000;
+			long sleepInterval = 4 * 1000;
 			long messageCount = 3;
 
 			HashSet<String> expiringIds = new HashSet<String>();
